@@ -1,0 +1,11 @@
+# Netlify Redirects - SPA Routing
+/*    /index.html   200
+
+# Force HTTPS
+http://vntemplatesqrdownloader.online/*  https://vntemplatesqrdownloader.online/:splat  301!
+
+# WWW to non-WWW
+https://www.vntemplatesqrdownloader.online/*  https://vntemplatesqrdownloader.online/:splat  301!
+
+# API Proxy (if needed)
+/api/*  https://vntmplatesbackend.onrender.com/api/:splat  200
